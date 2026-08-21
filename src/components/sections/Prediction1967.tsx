@@ -99,12 +99,21 @@ export const Prediction1967: React.FC<PredictionProps> = ({ onOpenImageModal }) 
             <span>Liệu lời dự đoán thiên tài ấy có trở thành hiện thực?</span>
           </div>
 
-          <button
-            onClick={() => onOpenImageModal('ho_chi_minh_1967')}
-            className="mt-2 text-xs font-mono text-[#D5B45A] hover:text-white underline underline-offset-4 cursor-pointer"
-          >
-            Xem ảnh tư liệu Bác Hồ làm việc với Quân chủng PK-KQ
-          </button>
+          <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
+            <button
+              onClick={() => onOpenImageModal('ho_chi_minh_1967')}
+              className="text-xs font-mono text-[#D5B45A] hover:text-white underline underline-offset-4 cursor-pointer"
+            >
+              ★ Xem tư liệu Bác Hồ làm việc với Quân chủng PK-KQ
+            </button>
+            <span className="text-gray-500 text-xs hidden sm:inline">•</span>
+            <button
+              onClick={() => onOpenImageModal('tran_dia_long_bien_1967')}
+              className="text-xs font-mono text-[#D5B45A] hover:text-white underline underline-offset-4 cursor-pointer"
+            >
+              ★ Xem ảnh tư liệu bảo vệ cầu Long Biên (27/5/1967)
+            </button>
+          </div>
         </motion.div>
       </div>
     </section>

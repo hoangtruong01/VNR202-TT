@@ -149,7 +149,10 @@ export function App() {
         <Victory1975 onOpenImageModal={handleOpenImageModal} />
 
         {/* Kết Luận: Sơ Đồ Xuyên Suốt */}
-        <ConclusionFlow onBackToTop={() => scrollToSection('hero')} />
+        <ConclusionFlow
+          onBackToTop={() => scrollToSection('hero')}
+          onOpenImageModal={handleOpenImageModal}
+        />
       </main>
 
       {/* Lightbox Modal for Archival Images */}

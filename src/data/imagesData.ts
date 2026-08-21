@@ -117,5 +117,32 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
     year: '1975',
     source: 'Nhiếp ảnh gia Francoise Demulder / TTXVN',
     tag: '30 Tháng 4 Toàn Thắng'
+  },
+  tran_dia_long_bien_1967: {
+    id: 'tran_dia_long_bien_1967',
+    url: '/images/tran_dia_long_bien_1967.png',
+    title: 'Trận chiến đấu bảo vệ cầu Long Biên (27/5/1967)',
+    caption: 'Chiến sĩ pháo cao xạ tại trận địa Gia Thượng - Gia Lâm tranh thủ đọc báo giữa giờ chiến đấu bảo vệ huyết mạch cầu Long Biên trước các đợt tập kích phá hoại của không quân Mỹ năm 1967.',
+    year: '1967',
+    source: 'Ảnh tư liệu lịch sử / Bảo tàng Quân chủng PK-KQ',
+    tag: 'Bảo Vệ Cầu Long Biên'
+  },
+  khau_doi_cao_xa_ha_noi: {
+    id: 'khau_doi_cao_xa_ha_noi',
+    url: '/images/khau_doi_cao_xa_ha_noi.jpg',
+    title: 'Khẩu đội pháo phòng không canh giữ bầu trời Thủ đô',
+    caption: 'Khẩu đội pháo phòng không ngụy trang cành lá cẩn mật, mắt dõi theo mục tiêu trên bầu trời, tạo nên mạng lưới phòng không nhân dân nhiều tầng nhiều lớp bảo vệ Hà Nội.',
+    year: '1967–1972',
+    source: 'Tư liệu Thông tấn xã Việt Nam (TTXVN)',
+    tag: 'Lực Lượng Phòng Không'
+  },
+  xac_may_bay_pho_ha_noi: {
+    id: 'xac_may_bay_pho_ha_noi',
+    url: '/images/xac_may_bay_pho_ha_noi.png',
+    title: 'Xác pháo đài bay B-52 rơi trên đường phố Hà Nội',
+    caption: 'Xác máy bay ném bom chiến lược B-52 của Mỹ bị quân và dân Thủ đô bắn rơi tại chỗ, nằm ngổn ngang trên đường phố Hà Nội trong sự chứng kiến của các chiến sĩ và đồng bào.',
+    year: '1972',
+    source: 'Thông tấn xã Việt Nam (TTXVN)',
+    tag: 'Hiện Thực Đập Tan B-52'
   }
 };
