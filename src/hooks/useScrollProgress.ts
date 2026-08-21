@@ -8,6 +8,7 @@ export interface TimelineMilestone {
 
 export const MILESTONES: TimelineMilestone[] = [
   { id: 'hero', year: '1972', title: 'Mở Đầu' },
+  { id: 'party-line-1965', year: '1965', title: 'Đường Lối Kháng Chiến' },
   { id: 'context-1965', year: '1965', title: 'Chiến Tranh Lan Rộng' },
   { id: 'two-regions', year: '1965', title: 'Hai Miền Nam – Bắc' },
   { id: 'timeline-1968', year: '1968', title: 'Tết Mậu Thân' },

@@ -27,7 +27,7 @@ export const ScrollProgress: React.FC<ScrollProgressProps> = ({
 }) => {
   // Determine which year pin matches current section
   const getActiveYear = () => {
-    if (activeSection === 'hero' || activeSection === 'context-1965' || activeSection === 'two-regions') return '1965';
+    if (activeSection === 'hero' || activeSection === 'context-1965' || activeSection === 'two-regions' || activeSection === 'party-line-1965') return '1965';
     if (activeSection === 'timeline-1968') return '1968';
     if (activeSection === 'newspaper-1972' || activeSection === 'prediction-1967' || activeSection === 'night-1972' || activeSection === 'twelve-days' || activeSection === 'dien-bien-phu') return '1972';
     if (activeSection === 'paris-1973') return '1973';

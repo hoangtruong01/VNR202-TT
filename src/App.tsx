@@ -10,6 +10,7 @@ import { DetailDrawer, DetailContent } from '@/components/ui/DetailDrawer';
 import { Hero } from '@/components/sections/Hero';
 import { HistoricalContext } from '@/components/sections/HistoricalContext';
 import { TwoRegions } from '@/components/sections/TwoRegions';
+import { PartyLine1965_1975 } from '@/components/sections/PartyLine1965_1975';
 import { Timeline1965_1968 } from '@/components/sections/Timeline1965_1968';
 import { Newspaper1969_1972 } from '@/components/sections/Newspaper1969_1972';
 import { Prediction1967 } from '@/components/sections/Prediction1967';
@@ -92,8 +93,14 @@ export function App() {
       <main className="w-full">
         {/* Hero: 18.12 - 29.12.1972 */}
         <Hero
-          onScrollDown={() => scrollToSection('context-1965')}
+          onScrollDown={() => scrollToSection('party-line-1965')}
           onOpenImageModal={handleOpenImageModal}
+        />
+
+        {/* Đường Lối Kháng Chiến Chống Mỹ, Cứu Nước (1965 — 1975) */}
+        <PartyLine1965_1975
+          onOpenDetailDrawer={handleOpenDetailDrawer}
+          onNavigate={scrollToSection}
         />
 
         {/* 1965: Bối Cảnh Chiến Tranh Lan Rộng */}
