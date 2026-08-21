@@ -58,10 +58,10 @@ export const DienBienPhuAir: React.FC<DienBienPhuAirProps> = ({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-display font-black tracking-tighter uppercase text-[#F8F3E8] leading-[0.9]"
+            className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-display font-black tracking-tighter uppercase text-[#F8F3E8] leading-[1.0]"
           >
             ĐIỆN BIÊN PHỦ
-            <span className="block text-[#D5B45A] mt-2">TRÊN KHÔNG</span>
+            <span className="block text-[#D5B45A] mt-3">TRÊN KHÔNG</span>
           </motion.h2>
 
           <motion.p
@@ -69,7 +69,7 @@ export const DienBienPhuAir: React.FC<DienBienPhuAirProps> = ({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="font-serif-title italic text-xl sm:text-3xl text-[#F8F3E8]/90 mt-6 max-w-3xl mx-auto"
+            className="font-serif-title italic text-xl sm:text-3xl text-[#F8F3E8]/90 mt-8 max-w-3xl mx-auto"
           >
             “Chiến thắng của ý chí kiên cường và đỉnh cao trí tuệ Việt Nam”
           </motion.p>
@@ -147,7 +147,7 @@ export const DienBienPhuAir: React.FC<DienBienPhuAirProps> = ({
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           
           {/* Pillar 1: Ý Chí */}
-          <div className="bg-[#121824] p-7 rounded-2xl border-2 border-[#9E1B1B] shadow-xl space-y-3">
+          <div className="bg-[#121824] p-7 rounded-2xl border-2 border-[#9E1B1B] shadow-xl space-y-4">
             <div className="w-10 h-10 rounded-lg bg-[#9E1B1B] text-[#F8F3E8] flex items-center justify-center font-display font-black text-xl">
               01
             </div>
@@ -160,7 +160,7 @@ export const DienBienPhuAir: React.FC<DienBienPhuAirProps> = ({
           </div>
 
           {/* Pillar 2: Trí Tuệ (Cẩm Nang Bìa Đỏ) */}
-          <div className="bg-[#121824] p-7 rounded-2xl border-2 border-[#D5B45A] shadow-xl space-y-3">
+          <div className="bg-[#121824] p-7 rounded-2xl border-2 border-[#D5B45A] shadow-xl space-y-4">
             <div className="w-10 h-10 rounded-lg bg-[#D5B45A] text-[#171717] flex items-center justify-center font-display font-black text-xl">
               02
             </div>
@@ -173,7 +173,7 @@ export const DienBienPhuAir: React.FC<DienBienPhuAirProps> = ({
           </div>
 
           {/* Pillar 3: Thế Trận 3 Thứ Quân */}
-          <div className="bg-[#121824] p-7 rounded-2xl border-2 border-[#704512] shadow-xl space-y-3">
+          <div className="bg-[#121824] p-7 rounded-2xl border-2 border-[#704512] shadow-xl space-y-4">
             <div className="w-10 h-10 rounded-lg bg-[#704512] text-[#F8F3E8] flex items-center justify-center font-display font-black text-xl">
               03
             </div>

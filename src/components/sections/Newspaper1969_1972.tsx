@@ -7,7 +7,7 @@ export const Newspaper1969_1972: React.FC = () => {
   return (
     <section
       id="newspaper-1972"
-      className="relative py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#F1E6CC] via-[#2A2318] to-[#0E1015] text-[#F8F3E8] border-b-2 border-[#D5B45A]/30 overflow-hidden"
+      className="relative py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#F1E6CC] via-[#2A2318] to-[#0E1015] text-[#F8F3E8] border-b-2 border-[#D5B45A]/30 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto">
         
@@ -25,7 +25,7 @@ export const Newspaper1969_1972: React.FC = () => {
             <h2 className="font-display font-black text-4xl sm:text-6xl md:text-7xl uppercase tracking-tighter text-[#171717]">
               KHÔI PHỤC VÀ ĐƯƠNG ĐẦU LEO THANG
             </h2>
-            <p className="font-serif-title italic text-sm sm:text-base text-[#704512] mt-1">
+            <p className="font-serif-title italic text-sm sm:text-base text-[#704512] mt-2">
               Dòng tin thời sự lịch sử những năm tháng vừa xây dựng hậu phương, vừa chuẩn bị đón đòn không kích chiến lược
             </p>
           </div>
@@ -47,7 +47,7 @@ export const Newspaper1969_1972: React.FC = () => {
                     <span className="text-[#704512]">{article.location}</span>
                   </div>
 
-                  <h3 className="font-display font-black text-xl sm:text-2xl text-[#171717] leading-tight mb-2">
+                  <h3 className="font-display font-black text-xl sm:text-2xl text-[#171717] leading-snug mb-3">
                     {article.title}
                   </h3>
 
@@ -64,7 +64,7 @@ export const Newspaper1969_1972: React.FC = () => {
                   <span className="text-[11px] font-display font-bold text-[#9E1B1B] uppercase tracking-wider block mb-1">
                     Trọng Tâm:
                   </span>
-                  <ul className="space-y-1 text-xs text-[#4A4A4A]">
+                  <ul className="space-y-2 text-xs text-[#4A4A4A]">
                     {article.keyPoints.map((pt, pIdx) => (
                       <li key={pIdx} className="flex items-start gap-1.5">
                         <span className="text-[#9E1B1B] font-bold">•</span>

@@ -30,7 +30,7 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
   },
   hero_b52_ruins: {
     id: 'hero_b52_ruins',
-    url: 'https://images.unsplash.com/photo-1579965342575-16428a7c8881?auto=format&fit=crop&w=1600&q=80',
+    url: '/images/b52_wreckage.jpg',
     title: 'Xác máy bay B-52 tại hồ Hữu Tiệp, Hà Nội',
     caption: 'Mảnh xác pháo đài bay B-52 bị bắn rơi đêm 27/12/1972 vẫn nằm lại giữa lòng hồ Hữu Tiệp (làng hoa Ngọc Hà, Ba Đình, Hà Nội).',
     year: '1972',
@@ -75,7 +75,7 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
   },
   danang_1965: {
     id: 'danang_1965',
-    url: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80',
+    url: '/images/danang_1965.jpg',
     title: 'Quân viễn chinh Mỹ đổ bộ vào Đà Nẵng (8/3/1965)',
     caption: 'Tiểu đoàn Thủy quân Lục chiến số 3 của Mỹ đổ bộ lên bãi biển Red Beach (Đà Nẵng), đánh dấu bước chuyển sang chiến lược "Chiến tranh cục bộ".',
     year: '1965',
@@ -111,7 +111,7 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
   },
   victory_tank_390: {
     id: 'victory_tank_390',
-    url: 'https://images.unsplash.com/photo-1569974498991-d3c12a504f95?auto=format&fit=crop&w=1200&q=80',
+    url: '/images/tank_390.jpg',
     title: 'Xe tăng 390 húc đổ cổng Dinh Độc Lập trưa 30/4/1975',
     caption: 'Khoảnh khắc lịch sử trưa 30/4/1975 khi xe tăng mang số hiệu 390 thuộc Lữ đoàn xe tăng 203 húc tung cánh cổng chính Dinh Độc Lập, cắm cờ chiến thắng kết thúc 21 năm kháng chiến chống Mỹ cứu nước.',
     year: '1975',

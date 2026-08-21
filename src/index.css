@@ -25,10 +25,31 @@
     font-family: var(--font-body);
     background-color: var(--color-paper);
     color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
   body {
     overflow-x: hidden;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+  }
+
+  /* Improved heading rhythm */
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  /* Better paragraph spacing */
+  p {
+    line-height: 1.75;
+  }
+
+  /* List items breathing room */
+  li {
+    line-height: 1.65;
   }
 }
 

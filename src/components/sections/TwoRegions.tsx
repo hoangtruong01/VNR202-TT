@@ -25,7 +25,7 @@ export const TwoRegions: React.FC<TwoRegionsProps> = ({ onOpenImageModal }) => {
   ];
 
   return (
-    <section id="two-regions" className="relative py-24 px-4 sm:px-6 lg:px-8 bg-paper-texture border-b-2 border-[#704512]/30 overflow-hidden">
+    <section id="two-regions" className="relative py-28 px-4 sm:px-6 lg:px-8 bg-paper-texture border-b-2 border-[#704512]/30 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         
         {/* Header */}
@@ -33,7 +33,7 @@ export const TwoRegions: React.FC<TwoRegionsProps> = ({ onOpenImageModal }) => {
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#E2D3B3] rounded-full border border-[#704512]/30 text-xs font-mono text-[#9E1B1B] font-bold uppercase tracking-wider mb-3">
             <Flag className="w-3.5 h-3.5" /> CHIẾN LƯỢC TOÀN DIỆN 1965 – 1975
           </div>
-          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black text-[#171717] tracking-tight uppercase">
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black text-[#171717] tracking-tight uppercase leading-tight">
             HAI MIỀN – MỘT MỤC TIÊU
           </h2>
           <div className="w-20 h-1 bg-[#9E1B1B] mx-auto my-4" />
@@ -86,7 +86,7 @@ export const TwoRegions: React.FC<TwoRegionsProps> = ({ onOpenImageModal }) => {
               scale: activeRegion === 'north' ? 1.02 : 1
             }}
             transition={{ duration: 0.4 }}
-            className={`lg:col-span-4 p-6 sm:p-7 rounded-2xl border-2 transition-all shadow-lg ${
+            className={`lg:col-span-4 p-7 sm:p-8 rounded-2xl border-2 transition-all shadow-lg ${
               activeRegion === 'north' || activeRegion === 'both'
                 ? 'bg-[#F8F3E8] border-[#9E1B1B]'
                 : 'bg-[#E2D3B3]/60 border-[#704512]/30'
@@ -102,11 +102,11 @@ export const TwoRegions: React.FC<TwoRegionsProps> = ({ onOpenImageModal }) => {
               </div>
             </div>
 
-            <p className="text-sm font-serif-title italic text-[#704512] mb-4 border-l-2 border-[#9E1B1B] pl-3">
+            <p className="text-sm font-serif-title italic text-[#704512] mb-5 border-l-2 border-[#9E1B1B] pl-3">
               “Vừa tay cày tay súng, vừa sản xuất vừa chiến đấu chi viện tối đa cho chiến trường.”
             </p>
 
-            <ul className="space-y-3 text-xs sm:text-sm text-[#171717]">
+            <ul className="space-y-3.5 text-xs sm:text-sm text-[#171717]">
               {northPoints.map((pt, idx) => (
                 <li key={idx} className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#9E1B1B] shrink-0 mt-0.5" />
@@ -153,7 +153,7 @@ export const TwoRegions: React.FC<TwoRegionsProps> = ({ onOpenImageModal }) => {
               scale: activeRegion === 'south' ? 1.02 : 1
             }}
             transition={{ duration: 0.4 }}
-            className={`lg:col-span-4 p-6 sm:p-7 rounded-2xl border-2 transition-all shadow-lg ${
+            className={`lg:col-span-4 p-7 sm:p-8 rounded-2xl border-2 transition-all shadow-lg ${
               activeRegion === 'south' || activeRegion === 'both'
                 ? 'bg-[#F8F3E8] border-[#9E1B1B]'
                 : 'bg-[#E2D3B3]/60 border-[#704512]/30'
@@ -169,11 +169,11 @@ export const TwoRegions: React.FC<TwoRegionsProps> = ({ onOpenImageModal }) => {
               </div>
             </div>
 
-            <p className="text-sm font-serif-title italic text-[#704512] mb-4 border-l-2 border-[#704512] pl-3">
+            <p className="text-sm font-serif-title italic text-[#704512] mb-5 border-l-2 border-[#704512] pl-3">
               “Kiên cường bám trụ, tiến công liên tục đập tan mọi chiến lược xâm lược của kẻ thù.”
             </p>
 
-            <ul className="space-y-3 text-xs sm:text-sm text-[#171717]">
+            <ul className="space-y-3.5 text-xs sm:text-sm text-[#171717]">
               {southPoints.map((pt, idx) => (
                 <li key={idx} className="flex items-start gap-2">
                   <CheckCircle2 className="w-4 h-4 text-[#704512] shrink-0 mt-0.5" />

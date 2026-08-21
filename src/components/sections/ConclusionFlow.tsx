@@ -32,14 +32,14 @@ export const ConclusionFlow: React.FC<ConclusionFlowProps> = ({ onBackToTop }) =
           <h2 className="text-4xl sm:text-6xl md:text-7xl font-display font-black tracking-tight uppercase text-[#171717]">
             TỪ DỰ ĐOÁN ĐẾN HIỆN THỰC
           </h2>
-          <div className="w-24 h-1 bg-[#9E1B1B] mx-auto" />
+          <div className="w-24 h-1 bg-[#9E1B1B] mx-auto mt-2" />
           <p className="font-serif-title italic text-lg sm:text-xl text-[#704512] max-w-2xl mx-auto">
             Mạch logic biện chứng xuyên suốt chiều dài cuộc kháng chiến chống Mỹ cứu nước
           </p>
         </div>
 
         {/* Vertical Cause-and-Effect Timeline Flow */}
-        <div className="relative max-w-2xl mx-auto space-y-4">
+        <div className="relative max-w-2xl mx-auto space-y-3">
           {flowSteps.map((step, idx) => (
             <React.Fragment key={idx}>
               <motion.div
@@ -47,7 +47,7 @@ export const ConclusionFlow: React.FC<ConclusionFlowProps> = ({ onBackToTop }) =
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className={`p-5 rounded-2xl border-2 shadow-md transition-all text-center ${
+                className={`p-6 rounded-2xl border-2 shadow-md transition-all text-center ${
                   idx === 0 || idx === flowSteps.length - 1
                     ? 'bg-[#9E1B1B] text-[#F8F3E8] border-[#D5B45A]'
                     : idx === 3
@@ -55,13 +55,13 @@ export const ConclusionFlow: React.FC<ConclusionFlowProps> = ({ onBackToTop }) =
                     : 'bg-[#F1E6CC] text-[#171717] border-[#704512]/30'
                 }`}
               >
-                <div className="text-xs font-mono font-bold uppercase tracking-widest opacity-80 mb-1">
+                <div className="text-xs font-mono font-bold uppercase tracking-widest opacity-80 mb-2">
                   BƯỚC {idx + 1}
                 </div>
                 <h3 className="text-xl sm:text-2xl font-display font-black tracking-wider uppercase">
                   {step.label}
                 </h3>
-                <p className="text-xs sm:text-sm mt-1.5 opacity-90 max-w-xl mx-auto leading-relaxed">
+                <p className="text-xs sm:text-sm mt-2.5 opacity-90 max-w-xl mx-auto leading-relaxed">
                   {step.desc}
                 </p>
               </motion.div>
@@ -80,7 +80,7 @@ export const ConclusionFlow: React.FC<ConclusionFlowProps> = ({ onBackToTop }) =
           initial={{ opacity: 0, scale: 0.96 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="bg-[#E8DEC4] p-8 sm:p-12 rounded-3xl border-3 border-[#704512] shadow-2xl text-center space-y-4 relative"
+          className="bg-[#E8DEC4] p-8 sm:p-12 rounded-3xl border-3 border-[#704512] shadow-2xl text-center space-y-5 relative"
         >
           <div className="w-12 h-12 rounded-full bg-[#9E1B1B] text-[#F8F3E8] flex items-center justify-center font-display font-black text-2xl mx-auto shadow-md">
             ★

@@ -29,20 +29,20 @@ export const Hero: React.FC<HeroProps> = ({ onScrollDown, onOpenImageModal }) =>
       </motion.div>
 
       {/* Main Title Group */}
-      <div className="z-10 max-w-5xl w-full text-center my-auto py-4">
+      <div className="z-10 max-w-5xl w-full text-center my-auto py-6">
         
         {/* Primary Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 25 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.4 }}
-          className="font-display font-extrabold uppercase tracking-tight text-[#171717] leading-[0.9] text-5xl sm:text-7xl md:text-8xl lg:text-9xl mb-2"
+          className="font-display font-extrabold uppercase tracking-tight text-[#171717] leading-[1.1] text-5xl sm:text-7xl md:text-8xl lg:text-9xl mb-4"
         >
           HÀ NỘI
-          <span className="block text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-[#9E1B1B] mt-1">
+          <span className="block text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-[#9E1B1B] mt-3">
             ĐIỆN BIÊN PHỦ
           </span>
-          <span className="block text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-[#704512] mt-1 tracking-normal">
+          <span className="block text-3xl sm:text-5xl md:text-6xl lg:text-7xl text-[#704512] mt-3 tracking-normal">
             TRÊN KHÔNG
           </span>
         </motion.h1>
@@ -52,7 +52,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollDown, onOpenImageModal }) =>
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.9, delay: 0.7 }}
-          className="max-w-2xl mx-auto my-6 bg-[#F8F3E8] p-3 sm:p-4 rounded-2xl border-2 border-[#704512] shadow-2xl group cursor-pointer"
+          className="max-w-2xl mx-auto my-8 bg-[#F8F3E8] p-3 sm:p-5 rounded-2xl border-2 border-[#704512] shadow-2xl group cursor-pointer"
           onClick={() => onOpenImageModal('hero_b52_flying')}
         >
           <div className="relative overflow-hidden rounded-xl bg-black aspect-16/9">
@@ -80,7 +80,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollDown, onOpenImageModal }) =>
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
-          className="flex items-center justify-center gap-4 text-sm sm:text-base font-mono font-bold tracking-widest text-[#9E1B1B] uppercase mb-2"
+          className="flex items-center justify-center gap-4 text-sm sm:text-base font-mono font-bold tracking-widest text-[#9E1B1B] uppercase mb-4"
         >
           <span className="w-8 sm:w-16 h-[2px] bg-[#9E1B1B]" />
           <span className="flex items-center gap-1.5">
@@ -94,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollDown, onOpenImageModal }) =>
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ type: 'spring', damping: 15, stiffness: 100, delay: 1 }}
-          className="my-1 sm:my-2"
+          className="my-2 sm:my-4"
         >
           <span className="inline-block font-display font-black text-6xl sm:text-8xl md:text-9xl text-transparent bg-clip-text bg-gradient-to-b from-[#9E1B1B] via-[#704512] to-[#171717] tracking-tighter drop-shadow-sm">
             1972

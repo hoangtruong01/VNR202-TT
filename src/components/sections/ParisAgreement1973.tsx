@@ -50,10 +50,10 @@ export const ParisAgreement1973: React.FC<ParisAgreementProps> = ({
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#E2D3B3] rounded-full border border-[#704512]/30 text-xs font-mono text-[#9E1B1B] font-bold uppercase tracking-wider mb-3">
             <Calendar className="w-3.5 h-3.5" /> 27.01.1973
           </div>
-          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black text-[#171717] tracking-tight uppercase">
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black text-[#171717] tracking-tight uppercase leading-tight">
             HIỆP ĐỊNH PARIS 1973
           </h2>
-          <div className="w-20 h-1 bg-[#9E1B1B] mx-auto my-4" />
+          <div className="w-20 h-1 bg-[#9E1B1B] mx-auto my-5" />
           <p className="font-serif-title italic text-base sm:text-lg text-[#704512]">
             “Khi thất bại trên bầu trời Hà Nội buộc đối phương phải đặt bút ký vào văn kiện chấm dứt chiến tranh tại Paris.”
           </p>
@@ -85,10 +85,10 @@ export const ParisAgreement1973: React.FC<ParisAgreementProps> = ({
             </div>
             <div className="mt-4">
               <div className="text-xs font-mono font-bold text-[#9E1B1B] uppercase">LỄ KÝ KẾT TẠI TRUNG TÂM HỘI NGHỊ QUỐC TẾ KLÉBER (PARIS)</div>
-              <h4 className="font-serif-title font-bold text-[#171717] text-lg mt-0.5">
+              <h4 className="font-serif-title font-bold text-[#171717] text-lg mt-1.5">
                 {HISTORICAL_IMAGES.paris_accord_1973.title}
               </h4>
-              <p className="text-xs sm:text-sm text-[#4A4A4A] mt-1 line-clamp-2">
+              <p className="text-xs sm:text-sm text-[#4A4A4A] mt-2 line-clamp-2">
                 {HISTORICAL_IMAGES.paris_accord_1973.caption}
               </p>
             </div>
@@ -109,7 +109,7 @@ export const ParisAgreement1973: React.FC<ParisAgreementProps> = ({
                 </div>
               </div>
 
-              <div className="space-y-4">
+              <div className="space-y-5">
                 {keyArticles.map((art, idx) => (
                   <div key={idx} className="flex items-start gap-3 p-3 bg-[#F1E6CC] rounded-xl border border-[#704512]/20">
                     <CheckCircle className="w-5 h-5 text-[#9E1B1B] shrink-0 mt-0.5" />

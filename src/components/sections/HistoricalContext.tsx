@@ -54,15 +54,15 @@ export const HistoricalContext: React.FC<HistoricalContextProps> = ({
   ];
 
   return (
-    <section id="context-1965" className="relative py-20 px-4 sm:px-6 lg:px-8 bg-[#F1E6CC] border-b-2 border-[#704512]/30">
+    <section id="context-1965" className="relative py-28 px-4 sm:px-6 lg:px-8 bg-[#F1E6CC] border-b-2 border-[#704512]/30">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}
-        <div className="mb-14 text-center max-w-3xl mx-auto">
+        <div className="mb-16 text-center max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#E2D3B3] rounded-full border border-[#704512]/30 text-xs font-mono text-[#9E1B1B] font-bold uppercase tracking-wider mb-3">
             <Calendar className="w-3.5 h-3.5" /> BỐI CẢNH LỊCH SỬ NĂM 1965
           </div>
-          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black text-[#171717] tracking-tight uppercase">
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black text-[#171717] tracking-tight uppercase leading-tight">
             1965 — CHIẾN TRANH LAN RỘNG
           </h2>
           <div className="w-20 h-1 bg-[#9E1B1B] mx-auto my-4" />
@@ -80,7 +80,7 @@ export const HistoricalContext: React.FC<HistoricalContextProps> = ({
               <Shield className="w-5 h-5" /> DÒNG SỰ KIỆN BƯỚC NGOẶT 1965
             </h3>
 
-            <div className="relative border-l-2 border-[#704512]/40 pl-6 space-y-8 ml-2">
+            <div className="relative border-l-2 border-[#704512]/40 pl-6 space-y-10 ml-2">
               {timelineEvents.map((evt, idx) => (
                 <motion.div
                   key={idx}
@@ -113,7 +113,7 @@ export const HistoricalContext: React.FC<HistoricalContextProps> = ({
             </div>
 
             {/* Read Deep Dive Button */}
-            <div className="pt-4">
+            <div className="pt-6">
               <button
                 onClick={() => onOpenDetailDrawer(detailData)}
                 className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#9E1B1B] hover:bg-[#7A1414] text-[#F8F3E8] font-display text-sm tracking-wider uppercase shadow-md transition-all cursor-pointer"
@@ -158,11 +158,11 @@ export const HistoricalContext: React.FC<HistoricalContextProps> = ({
             </motion.div>
 
             {/* Strategic Summary Box */}
-            <div className="bg-[#E2D3B3] p-5 rounded-xl border border-[#704512]/40">
-              <h4 className="font-display font-bold text-sm tracking-wider uppercase text-[#171717] mb-2">
+            <div className="bg-[#E2D3B3] p-6 rounded-xl border border-[#704512]/40">
+              <h4 className="font-display font-bold text-sm tracking-wider uppercase text-[#171717] mb-3">
                 ĐƯỜNG LỐI KHÁNG CHIẾN TRÊN CẢ NƯỚC:
               </h4>
-              <ul className="space-y-2 text-xs sm:text-sm text-[#171717]">
+              <ul className="space-y-3 text-xs sm:text-sm text-[#171717]">
                 <li className="flex items-start gap-2">
                   <span className="text-[#9E1B1B] font-bold">▶</span>
                   <span><strong>Miền Nam:</strong> Kiên quyết giữ vững thế tiến công, đánh bại "Chiến tranh cục bộ", giải phóng miền Nam.</span>

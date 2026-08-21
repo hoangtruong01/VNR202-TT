@@ -27,10 +27,10 @@ export const TwelveDaysBattle: React.FC<TwelveDaysBattleProps> = ({ onOpenImageM
           <h2 className="text-4xl sm:text-6xl md:text-8xl font-display font-black text-[#F8F3E8] tracking-tight uppercase">
             12 NGÀY ĐÊM
           </h2>
-          <p className="text-xl sm:text-3xl font-display font-bold text-[#D5B45A] uppercase mt-1">
+          <p className="text-xl sm:text-3xl font-display font-bold text-[#D5B45A] uppercase mt-3">
             BẢN HÙNG CA CHIẾN THẮNG TRÊN BẦU TRỜI THỦ ĐÔ
           </p>
-          <div className="w-24 h-1 bg-[#9E1B1B] mx-auto my-4" />
+          <div className="w-24 h-1 bg-[#9E1B1B] mx-auto my-5" />
         </div>
 
         {/* STATISTICAL COUNTER GRID */}
@@ -151,7 +151,7 @@ export const TwelveDaysBattle: React.FC<TwelveDaysBattleProps> = ({ onOpenImageM
             className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start bg-[#07090E] p-6 sm:p-8 rounded-xl border border-[#D5B45A]/20"
           >
             {/* Day Info */}
-            <div className="lg:col-span-8 space-y-4">
+            <div className="lg:col-span-8 space-y-5">
               <div className="flex flex-wrap items-center gap-3">
                 <span className="px-3 py-1 rounded bg-[#9E1B1B] text-[#F8F3E8] font-display font-bold text-sm">
                   NGÀY THỨ {currentDay.dayNumber}

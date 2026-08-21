@@ -40,7 +40,7 @@ export const Victory1975: React.FC<VictoryProps> = ({ onOpenImageModal }) => {
         </motion.div>
 
         {/* Main Victory Title */}
-        <div className="space-y-3">
+        <div className="space-y-4">
           <motion.h2
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -49,7 +49,7 @@ export const Victory1975: React.FC<VictoryProps> = ({ onOpenImageModal }) => {
             className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-display font-black tracking-tight uppercase text-[#9E1B1B] leading-none drop-shadow-sm"
           >
             NON SÔNG THU VỀ
-            <span className="block text-[#171717] mt-2 text-4xl sm:text-6xl md:text-7xl lg:text-8xl">
+            <span className="block text-[#171717] mt-3 text-4xl sm:text-6xl md:text-7xl lg:text-8xl">
               MỘT MỐI
             </span>
           </motion.h2>
@@ -59,7 +59,7 @@ export const Victory1975: React.FC<VictoryProps> = ({ onOpenImageModal }) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="font-serif-title italic text-xl sm:text-2xl md:text-3xl text-[#704512] max-w-3xl mx-auto pt-2"
+            className="font-serif-title italic text-xl sm:text-2xl md:text-3xl text-[#704512] max-w-3xl mx-auto pt-4"
           >
             “Kết thúc thắng lợi trọn vẹn 21 năm kháng chiến chống Mỹ cứu nước, non sông nối liền một dải, Bắc – Nam sum họp một nhà.”
           </motion.p>
@@ -85,22 +85,22 @@ export const Victory1975: React.FC<VictoryProps> = ({ onOpenImageModal }) => {
             </div>
           </div>
 
-          <div className="mt-5 text-left">
+          <div className="mt-6 text-left">
             <div className="flex items-center justify-between text-xs font-mono font-bold text-[#9E1B1B] uppercase mb-1">
               <span>ẢNH TƯ LIỆU QUỐC BẢO</span>
               <span>TRƯA 30/4/1975</span>
             </div>
-            <h3 className="font-serif-title font-bold text-xl sm:text-2xl text-[#171717]">
+            <h3 className="font-serif-title font-bold text-xl sm:text-2xl text-[#171717] mt-1">
               {HISTORICAL_IMAGES.victory_tank_390.title}
             </h3>
-            <p className="text-xs sm:text-sm text-[#4A4A4A] mt-1.5 leading-relaxed text-justify">
+            <p className="text-xs sm:text-sm text-[#4A4A4A] mt-2 leading-relaxed text-justify">
               {HISTORICAL_IMAGES.victory_tank_390.caption}
             </p>
           </div>
         </motion.div>
 
         {/* Climax reflection celebration button */}
-        <div className="pt-4">
+        <div className="pt-6">
           <button
             onClick={triggerConfetti}
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#D5B45A] hover:bg-[#B39238] text-[#171717] font-display font-bold text-sm tracking-wider uppercase shadow-lg transition-transform hover:scale-105 cursor-pointer"

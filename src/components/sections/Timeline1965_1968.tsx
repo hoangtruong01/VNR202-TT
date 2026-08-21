@@ -7,15 +7,15 @@ export const Timeline1965_1968: React.FC = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section id="timeline-1968" className="relative py-24 px-4 sm:px-6 lg:px-8 bg-[#E8DEC4] border-b-2 border-[#704512]/30">
+    <section id="timeline-1968" className="relative py-28 px-4 sm:px-6 lg:px-8 bg-[#E8DEC4] border-b-2 border-[#704512]/30">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D8CAAC] rounded-full border border-[#704512]/30 text-xs font-mono text-[#9E1B1B] font-bold uppercase tracking-wider mb-3">
             <Swords className="w-3.5 h-3.5" /> GIAI ĐOẠN 1965 — 1968
           </div>
-          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black text-[#171717] tracking-tight uppercase">
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black text-[#171717] tracking-tight uppercase leading-tight">
             BẺ GÃY PHẢN CÔNG CHIẾN LƯỢC
           </h2>
           <div className="w-20 h-1 bg-[#9E1B1B] mx-auto my-4" />
@@ -65,7 +65,7 @@ export const Timeline1965_1968: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             {/* Main Content */}
-            <div className="lg:col-span-8 space-y-5">
+            <div className="lg:col-span-8 space-y-6">
               <div className="flex flex-wrap items-center gap-3">
                 <span className="px-3 py-1 bg-[#9E1B1B] text-[#F8F3E8] rounded font-display font-bold text-sm">
                   {TIMELINE_1965_1968[activeTab].year}
@@ -78,7 +78,7 @@ export const Timeline1965_1968: React.FC = () => {
                 </span>
               </div>
 
-              <h3 className="text-2xl sm:text-4xl font-display font-black text-[#171717] uppercase leading-tight">
+              <h3 className="text-2xl sm:text-4xl font-display font-black text-[#171717] uppercase leading-snug">
                 {TIMELINE_1965_1968[activeTab].title}
               </h3>
 
@@ -91,11 +91,11 @@ export const Timeline1965_1968: React.FC = () => {
               </p>
 
               {/* Key strategic points */}
-              <div className="pt-2">
-                <h4 className="text-xs font-display font-bold text-[#9E1B1B] uppercase tracking-wider mb-2">
+              <div className="pt-3">
+                <h4 className="text-xs font-display font-bold text-[#9E1B1B] uppercase tracking-wider mb-3">
                   Ý NGHĨA CHIẾN LƯỢC:
                 </h4>
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   {TIMELINE_1965_1968[activeTab].keyPoints.map((pt, idx) => (
                     <li key={idx} className="flex items-start gap-2.5 text-xs sm:text-sm text-[#171717]">
                       <CheckCircle2 className="w-4 h-4 text-[#9E1B1B] shrink-0 mt-0.5" />

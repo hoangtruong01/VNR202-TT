@@ -49,17 +49,17 @@ export const AirBattleNight1972: React.FC<AirBattleNightProps> = ({
       <div className="max-w-7xl mx-auto relative z-10">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#9E1B1B]/80 rounded-full border border-[#D5B45A]/40 text-xs font-mono text-[#D5B45A] font-bold uppercase tracking-widest mb-3">
             <Radio className="w-3.5 h-3.5 animate-pulse" /> ĐÊM MỞ MÀN CHIẾN DỊCH LINEBACKER II
           </div>
           <h2 className="text-4xl sm:text-6xl md:text-7xl font-display font-black tracking-tight uppercase text-[#F8F3E8]">
             18.12.1972
           </h2>
-          <p className="text-2xl sm:text-3xl font-display font-bold text-[#9E1B1B] uppercase mt-1">
+          <p className="text-2xl sm:text-3xl font-display font-bold text-[#9E1B1B] uppercase mt-3">
             ĐÊM BẦU TRỜI HÀ NỘI RUNG CHUYỂN
           </p>
-          <div className="w-24 h-1 bg-[#D5B45A] mx-auto my-4" />
+          <div className="w-24 h-1 bg-[#D5B45A] mx-auto my-5" />
           <p className="font-serif-title italic text-sm sm:text-base text-gray-300">
             “19 giờ 40 phút: Những quả bom đầu tiên rải thảm xuống Hà Nội... Cuộc đọ sức lịch sử giữa ý chí Việt Nam và siêu pháo đài bay chính thức bắt đầu.”
           </p>
@@ -96,7 +96,7 @@ export const AirBattleNight1972: React.FC<AirBattleNightProps> = ({
                         : 'bg-[#0E121B] border-[#D5B45A]/20 hover:border-[#D5B45A]/50'
                     }`}
                   >
-                    <div className="flex items-center justify-between mb-1.5">
+                    <div className="flex items-center justify-between mb-2.5">
                       <div className="flex items-center gap-2">
                         <span className={`px-2 py-0.5 rounded text-xs font-mono font-bold ${
                           evt.type === 'VICTORY'

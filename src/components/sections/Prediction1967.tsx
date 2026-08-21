@@ -40,7 +40,7 @@ export const Prediction1967: React.FC<PredictionProps> = ({ onOpenImageModal }) 
         </motion.div>
 
         {/* The Immortal Quote */}
-        <div className="space-y-4 py-4">
+        <div className="space-y-6 py-4">
           <motion.p
             initial={{ opacity: 0, y: 25 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -81,7 +81,7 @@ export const Prediction1967: React.FC<PredictionProps> = ({ onOpenImageModal }) 
           <div className="text-base sm:text-lg font-display uppercase tracking-widest text-[#D5B45A] font-bold">
             — CHỦ TỊCH HỒ CHÍ MINH
           </div>
-          <div className="text-xs sm:text-sm font-mono text-gray-400 mt-1 max-w-xl mx-auto">
+          <div className="text-xs sm:text-sm font-mono text-gray-400 mt-2 max-w-xl mx-auto">
             (Căn dặn Tư lệnh Quân chủng Phòng không – Không quân Phùng Thế Tài, cuối năm 1967)
           </div>
         </motion.div>

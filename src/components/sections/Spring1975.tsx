@@ -18,10 +18,10 @@ export const Spring1975: React.FC = () => {
           <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#D8CAAC] rounded-full border border-[#704512]/30 text-xs font-mono text-[#9E1B1B] font-bold uppercase tracking-wider mb-3">
             <Compass className="w-3.5 h-3.5" /> TỔNG TIẾN CÔNG VÀ NỔI DẬY MÙA XUÂN 1975
           </div>
-          <h2 className="text-3xl sm:text-5xl lg:text-7xl font-display font-black text-[#171717] tracking-tight uppercase">
+          <h2 className="text-3xl sm:text-5xl lg:text-7xl font-display font-black text-[#171717] tracking-tight uppercase leading-tight">
             THẦN TỐC — TÁO BẠO — TOÀN THẮNG
           </h2>
-          <div className="w-24 h-1 bg-[#9E1B1B] mx-auto my-4" />
+          <div className="w-24 h-1 bg-[#9E1B1B] mx-auto my-5" />
           <p className="font-serif-title italic text-base sm:text-lg text-[#704512]">
             “‘Thần tốc, thần tốc hơn nữa; táo bạo, táo bạo hơn nữa; tranh thủ từng giờ, từng phút xốc tới mặt trận giải phóng miền Nam!’”
           </p>
@@ -49,10 +49,10 @@ export const Spring1975: React.FC = () => {
                     <MapPin className="w-3 h-3" /> {camp.location}
                   </span>
                 </div>
-                <h3 className="font-display font-black text-xl leading-tight">
+                <h3 className="font-display font-black text-xl leading-snug">
                   {camp.title}
                 </h3>
-                <p className={`text-xs mt-1 truncate ${isSelected ? 'text-gray-200' : 'text-[#704512]'}`}>
+                <p className={`text-xs mt-2 truncate ${isSelected ? 'text-gray-200' : 'text-[#704512]'}`}>
                   {camp.subtitle}
                 </p>
               </button>
@@ -71,7 +71,7 @@ export const Spring1975: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             {/* Left Content */}
-            <div className="lg:col-span-8 space-y-4">
+            <div className="lg:col-span-8 space-y-5">
               <div className="flex items-center gap-3">
                 <span className="px-3 py-1 bg-[#9E1B1B] text-[#F8F3E8] font-display font-bold text-sm rounded">
                   CHIẾN DỊCH {selectedCampaign + 1} / 4
@@ -96,11 +96,11 @@ export const Spring1975: React.FC = () => {
                 {SPRING_1975_CAMPAIGNS[selectedCampaign].description}
               </p>
 
-              <div className="pt-2">
-                <h4 className="text-xs font-display font-bold text-[#704512] uppercase tracking-wider mb-2">
+              <div className="pt-3">
+                <h4 className="text-xs font-display font-bold text-[#704512] uppercase tracking-wider mb-3">
                   KẾT QUẢ ĐỘT PHÁ:
                 </h4>
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   {SPRING_1975_CAMPAIGNS[selectedCampaign].keyPoints.map((pt, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-xs sm:text-sm text-[#171717]">
                       <CheckCircle2 className="w-4 h-4 text-[#9E1B1B] shrink-0 mt-0.5" />
