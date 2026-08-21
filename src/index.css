@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #F1E6CC;
+  --color-paper-light: #F8F3E8;
+  --color-paper-dark: #E2D3B3;
+  --color-ink: #171717;
+  --color-ink-muted: #4A4A4A;
+  --color-night: #0E1015;
+  --color-night-dark: #07080A;
+  --color-sepia: #704512;
+  --color-crimson: #9E1B1B;
+  --color-crimson-dark: #7A1414;
+  --color-gold: #D5B45A;
+  --color-gold-muted: #B39238;
+  
+  --font-display: 'Oswald', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif-title: 'Playfair Display', Georgia, serif;
+  --font-body: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-hero: 'Cinzel', serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Vintage Paper & Noise Textures */
+.bg-paper-texture {
+  background-color: #F1E6CC;
+  background-image: radial-gradient(#704512 0.75px, transparent 0.75px), radial-gradient(#9E1B1B 0.75px, #F1E6CC 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-blend-mode: soft-light;
+}
+
+.bg-dark-grid {
+  background-color: #0E1015;
+  background-image: linear-gradient(to right, rgba(213, 180, 90, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(213, 180, 90, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.vintage-stamp {
+  border: 2px dashed #9E1B1B;
+  box-shadow: 0 0 0 4px rgba(158, 27, 27, 0.15);
+}
+
+.vintage-border {
+  border: 1px solid #704512;
+  box-shadow: inset 0 0 0 3px #F1E6CC, inset 0 0 0 4px #704512;
+}
+
+.gold-glow {
+  text-shadow: 0 0 20px rgba(213, 180, 90, 0.4);
+}
+
+.red-glow {
+  text-shadow: 0 0 25px rgba(158, 27, 27, 0.6);
+}
+
+/* Radar Animation */
+@keyframes radar-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-radar {
+  animation: radar-sweep 4s linear infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #E2D3B3;
+}
+::-webkit-scrollbar-thumb {
+  background: #704512;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9E1B1B;
+}
