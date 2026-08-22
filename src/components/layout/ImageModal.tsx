@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, ZoomIn, Info, ShieldCheck } from 'lucide-react';
+import { X, ZoomIn, Info, ShieldCheck, ExternalLink } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { HistoricalImage } from '@/data/imagesData';
 
@@ -85,12 +85,24 @@ export const ImageModal: React.FC<ImageModalProps> = ({ image, onClose }) => {
               </p>
 
               <div className="pt-3 border-t border-[#704512]/20 flex flex-wrap items-center justify-between text-xs text-[#704512] gap-2">
-                <div className="flex items-center gap-1.5 font-medium">
-                  <ShieldCheck className="w-4 h-4 text-[#9E1B1B]" />
-                  <span>Nguồn lưu trữ: <strong>{image.source}</strong></span>
-                </div>
-                <div className="flex items-center gap-1 text-[11px] italic text-[#4A4A4A]">
-                  <Info className="w-3.5 h-3.5" /> Bản quyền tư liệu thuộc cơ quan lưu trữ quốc gia
+                <div className="flex items-start gap-1.5 font-medium flex-wrap max-w-full">
+                  <ShieldCheck className="w-4 h-4 text-[#9E1B1B] shrink-0 mt-0.5" />
+                  <span className="break-all">
+                    Nguồn tư liệu:{' '}
+                    {image.sourceUrl ? (
+                      <a
+                        href={image.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#9E1B1B] hover:underline font-bold inline-flex items-center gap-1 break-all"
+                      >
+                        {image.source}
+                        <ExternalLink className="w-3 h-3 shrink-0 inline" />
+                      </a>
+                    ) : (
+                      <strong>{image.source}</strong>
+                    )}
+                  </span>
                 </div>
               </div>
             </div>

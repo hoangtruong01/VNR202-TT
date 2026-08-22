@@ -6,6 +6,7 @@ export interface HistoricalImage {
   caption: string;
   year: string;
   source: string;
+  sourceUrl?: string;
   tag: string;
 }
 
@@ -23,9 +24,10 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
     id: 'hero_b52_flying',
     url: '/images/b52_bombs.jpg',
     title: 'Pháo đài bay chiến lược B-52 Stratofortress trút bom rải thảm',
-    caption: 'Máy bay B-52 mang số hiệu 70162 của Không quân Chiến lược Mỹ (SAC) trút hàng chục tấn bom trong chiến dịch Linebacker II nhằm hủy diệt Hà Nội và các đô thị miền Bắc.',
+    caption: 'Máy bay B-52 của Không quân Chiến lược Mỹ (SAC) trút mưa bom rải thảm trong chiến dịch Linebacker II (tháng 12/1972) nhằm hủy diệt Hà Nội và các đô thị miền Bắc.',
     year: '1972',
-    source: 'Tư liệu Không quân Hoa Kỳ (U.S. Air Force Archive) / TTXVN',
+    source: 'Báo điện tử Tiền Phong (Tư liệu Không quân Hoa Kỳ)',
+    sourceUrl: 'https://tienphong.vn/tham-bai-phao-dai-bay-b-52-o-ha-noi-qua-mat-nguoi-nga-post627520.tpo',
     tag: 'Pháo Đài Bay B-52'
   },
   hero_b52_ruins: {
@@ -79,7 +81,8 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
     title: 'Quân viễn chinh Mỹ đổ bộ vào Đà Nẵng (8/3/1965)',
     caption: 'Tiểu đoàn Thủy quân Lục chiến số 3 của Mỹ đổ bộ lên bãi biển Red Beach (Đà Nẵng), đánh dấu bước chuyển sang chiến lược "Chiến tranh cục bộ".',
     year: '1965',
-    source: 'Tư liệu Tạp chí LIFE (LIFE Magazine) / TTXVN',
+    source: 'Facebook: Nam Sài Gòn (Tư liệu 8/3/1965)',
+    sourceUrl: 'https://www.facebook.com/namsaigonbtg7/photos/nga%CC%80y-na%CC%80y-n%C4%83m-x%C6%B0a-831965-thu%CC%89y-qu%C3%A2n-lu%CC%A3c-chi%C3%AA%CC%81n-my%CC%83-%C4%91%C3%B4%CC%89-b%C3%B4%CC%A3-va%CC%80o-b%C6%A1%CC%80-bi%C3%AA%CC%89n-%C4%91a%CC%80-/922943528369880/',
     tag: 'Bối Cảnh 1965'
   },
   ho_chi_minh_1967: {
@@ -115,7 +118,8 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
     title: 'Xe tăng 390 húc đổ cổng Dinh Độc Lập trưa 30/4/1975',
     caption: 'Khoảnh khắc lịch sử trưa 30/4/1975 khi xe tăng mang số hiệu 390 thuộc Lữ đoàn xe tăng 203 húc tung cánh cổng chính Dinh Độc Lập, cắm cờ chiến thắng kết thúc 21 năm kháng chiến chống Mỹ cứu nước.',
     year: '1975',
-    source: 'Nhiếp ảnh gia Francoise Demulder / TTXVN',
+    source: 'Báo Lao Động (Tư liệu lịch sử 30/4/1975)',
+    sourceUrl: 'https://laodong.vn/video/hanh-trinh-huc-do-cong-dinh-doc-lap-cua-hai-xe-tang-so-hieu-390-va-843-730684.ldo',
     tag: '30 Tháng 4 Toàn Thắng'
   },
   tran_dia_long_bien_1967: {
