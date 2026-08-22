@@ -118,9 +118,6 @@ export function App() {
         {/* 1969 -> 1972: Trang Báo Lịch Sử & Chuyển Màu Ban Đêm */}
         <Newspaper1969_1972 />
 
-        {/* Dự Đoán Của Bác Hồ 1967 */}
-        <Prediction1967 onOpenImageModal={handleOpenImageModal} />
-
         {/* 18.12.1972: Đêm Bầu Trời Hà Nội Rung Chuyển & Radar */}
         <AirBattleNight1972
           onRadarPing={playRadarPing}
@@ -147,6 +144,9 @@ export function App() {
 
         {/* 30/4/1975: Non Sông Thu Về Một Mối */}
         <Victory1975 onOpenImageModal={handleOpenImageModal} />
+
+        {/* Dự Đoán Của Bác Hồ 1967 — Đặt trước Đúc Kết để tạo mạch logic */}
+        <Prediction1967 onOpenImageModal={handleOpenImageModal} />
 
         {/* Kết Luận: Sơ Đồ Xuyên Suốt */}
         <ConclusionFlow
