@@ -120,11 +120,11 @@ export const TWELVE_DAYS_DIARY: BattleDay[] = [
 ];
 
 export const AIR_BATTLE_STATS = {
-  totalPlanesDowned: 81,
+  totalPlanesDowned: 84,
   b52Downed: 34,
   f111Downed: 5,
   tacticalPlanesDowned: 42,
-  pilotsCaptured: 44,
+  pilotsCaptured: 43,
   daysDuration: 12,
   bombsDroppedTons: '100.000+',
   totalSortiesB52: 663
