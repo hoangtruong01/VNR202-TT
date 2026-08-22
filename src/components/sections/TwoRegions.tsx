@@ -178,16 +178,16 @@ export const TwoRegions: React.FC<TwoRegionsProps> = ({ onOpenImageModal }) => {
 
                 {/* Top Live Coordinate Badge */}
                 <div className="absolute top-3 left-3 bg-[#9E1B1B] text-[#F8F3E8] text-[10px] font-mono px-2.5 py-1 rounded shadow uppercase font-bold tracking-wider">
-                  VĨ TUYẾN 17 CHIA CẮT
+                  TOÀN TUYẾN BẮC – NAM
                 </div>
               </div>
 
               {/* Caption beneath map */}
               <div className="mt-3 px-2 py-1.5 flex items-center justify-between text-xs font-mono text-[#704512] border-t border-[#704512]/20">
                 <span className="font-bold flex items-center gap-1.5">
-                  <MapPin className="w-3.5 h-3.5 text-[#9E1B1B]" /> Tuyến Trường Sơn
+                  <MapPin className="w-3.5 h-3.5 text-[#9E1B1B]" /> Đường Hồ Chí Minh
                 </span>
-                <span className="text-[#9E1B1B] font-bold">Đoàn 559</span>
+                <span className="text-[#9E1B1B] font-bold">Pác Bó ➔ Đất Mũi</span>
               </div>
             </motion.div>
           </div>

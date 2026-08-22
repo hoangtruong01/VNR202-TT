@@ -12,12 +12,12 @@ export interface HistoricalImage {
 export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
   map_two_regions: {
     id: 'map_two_regions',
-    url: '/images/ban_do_hai_mien.jpg',
-    title: 'Bản đồ chiến lược: Hai Miền Nam – Bắc và Tuyến Đường Trường Sơn',
-    caption: 'Sơ đồ thể hiện vị trí chiến lược của Hậu phương lớn miền Bắc, Vĩ tuyến 17 chia cắt tạm thời, và tuyến vận tải chiến lược Đường Trường Sơn (Đoàn 559) chi viện sức người sức của cho Tiền tuyến lớn miền Nam.',
+    url: '/images/ban_do_duong_ho_chi_minh.png',
+    title: 'Bản đồ Toàn tuyến Đường Hồ Chí Minh',
+    caption: 'Sơ đồ chi tiết toàn tuyến Đường Hồ Chí Minh nối liền từ Pác Bó (Cao Bằng) đến Đất Mũi (Cà Mau), huyết mạch giao thông và chi viện chiến lược cho chiến trường miền Nam.',
     year: '1965–1975',
-    source: 'Bản đồ Quân sự Lịch sử Việt Nam / Cục Bản đồ',
-    tag: 'Bản Đồ Chiến Lược'
+    source: 'Bản đồ Toàn tuyến Đường Hồ Chí Minh',
+    tag: 'Bản Đồ Toàn Tuyến'
   },
   hero_b52_flying: {
     id: 'hero_b52_flying',
@@ -30,12 +30,12 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
   },
   hero_b52_ruins: {
     id: 'hero_b52_ruins',
-    url: '/images/b52_wreckage.jpg',
-    title: 'Xác máy bay B-52 tại hồ Hữu Tiệp, Hà Nội',
-    caption: 'Mảnh xác pháo đài bay B-52 bị bắn rơi đêm 27/12/1972 vẫn nằm lại giữa lòng hồ Hữu Tiệp (làng hoa Ngọc Hà, Ba Đình, Hà Nội).',
+    url: '/images/b52_wreckage.png',
+    title: 'Nữ tự vệ canh gác bên xác máy bay B-52 rơi trên đường phố Hà Nội',
+    caption: 'Nữ tự vệ Thủ đô mang súng đứng gác bên xác pháo đài bay B-52 của Mỹ bị quân và dân ta bắn rơi tại chỗ trên phố Hoàng Hoa Thám (Hà Nội) trong chiến dịch 12 ngày đêm tháng 12/1972.',
     year: '1972',
-    source: 'Bảo tàng Chiến thắng B-52 / Thông tấn xã Việt Nam (TTXVN)',
-    tag: 'Xác B-52 Tại Hà Nội'
+    source: 'Thông tấn xã Việt Nam (TTXVN) / Bảo tàng Lịch sử Quân sự Việt Nam',
+    tag: 'Xác B-52 Rơi Tại Hà Nội'
   },
   phao_cao_xa_hanoi: {
     id: 'phao_cao_xa_hanoi',
@@ -75,29 +75,29 @@ export const HISTORICAL_IMAGES: Record<string, HistoricalImage> = {
   },
   danang_1965: {
     id: 'danang_1965',
-    url: '/images/danang_1965.jpg',
+    url: '/images/danang_1965.png',
     title: 'Quân viễn chinh Mỹ đổ bộ vào Đà Nẵng (8/3/1965)',
     caption: 'Tiểu đoàn Thủy quân Lục chiến số 3 của Mỹ đổ bộ lên bãi biển Red Beach (Đà Nẵng), đánh dấu bước chuyển sang chiến lược "Chiến tranh cục bộ".',
     year: '1965',
-    source: 'Tư liệu Lưu trữ Quốc gia / AP Photo',
+    source: 'Tư liệu Tạp chí LIFE (LIFE Magazine) / TTXVN',
     tag: 'Bối Cảnh 1965'
   },
   ho_chi_minh_1967: {
     id: 'ho_chi_minh_1967',
-    url: 'https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?auto=format&fit=crop&w=1200&q=80',
-    title: 'Chủ tịch Hồ Chí Minh làm việc với Bộ Tư lệnh Phòng không - Không quân',
-    caption: 'Bác Hồ căn dặn đồng chí Phùng Thế Tài (1962 & 1967): "Sớm muộn rồi đế quốc Mỹ cũng sẽ đưa B-52 ra đánh Hà Nội, rồi có thua nó mới chịu thua... Ở Việt Nam, Mỹ nhất định thua, nhưng nó chỉ chịu thua sau khi thua trên bầu trời Hà Nội".',
+    url: '/images/ho_chi_minh_pkkq_1967.png',
+    title: 'Chủ tịch Hồ Chí Minh làm việc và động viên Bộ đội Phòng không - Không quân',
+    caption: 'Chủ tịch Hồ Chí Minh thăm và động viên cán bộ, phi công, chiến sĩ Quân chủng Phòng không - Không quân. Người đưa ra dự báo thiên tài: "Sớm muộn rồi đế quốc Mỹ cũng sẽ đưa B-52 ra đánh Hà Nội, rồi có thua nó mới chịu thua... Ở Việt Nam, Mỹ nhất định thua, nhưng nó chỉ chịu thua sau khi thua trên bầu trời Hà Nội".',
     year: '1967',
-    source: 'Viện Lịch sử Quân sự Việt Nam',
+    source: 'Thông tấn xã Việt Nam (TTXVN) / Viện Lịch sử Quân sự Việt Nam',
     tag: 'Dự Đoán Thiên Tài'
   },
   sam2_missile: {
     id: 'sam2_missile',
-    url: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80',
+    url: '/images/sam2_missile.png',
     title: 'Tên lửa phòng không SAM-2 ("Rồng lửa Thăng Long")',
-    caption: 'Bệ phóng tên lửa SAM-2 sẵn sàng nhả đạn vào các tốp pháo đài bay chiến lược B-52 trên vùng trời Hà Nội.',
+    caption: 'Bệ phóng tên lửa phòng không SAM-2 cùng kíp chiến đấu sẵn sàng điểm hỏa, tạo nên lưới lửa tầm cao thiêu cháy pháo đài bay B-52 trên bầu trời Hà Nội.',
     year: '1972',
-    source: 'Bảo tàng Lực lượng Phòng không - Không quân',
+    source: 'Bảo tàng Lực lượng Phòng không - Không quân / TTXVN',
     tag: 'Vũ Khí Khắc Tinh B-52'
   },
   pham_tuan_mig21: {

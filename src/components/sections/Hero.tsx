@@ -123,7 +123,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollDown, onOpenImageModal }) =>
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E2D3B3] hover:bg-[#D5B45A]/40 border border-[#704512]/40 text-xs font-mono text-[#171717] transition-all cursor-pointer shadow-xs"
           >
             <Award className="w-3.5 h-3.5 text-[#9E1B1B]" />
-            <span>Xem mảnh xác B-52 tại hồ Hữu Tiệp</span>
+            <span>Xem xác B-52 rơi trên phố Hà Nội</span>
           </button>
         </motion.div>
       </div>

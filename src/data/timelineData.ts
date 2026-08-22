@@ -33,7 +33,7 @@ export const TIMELINE_1965_1968: TimelineEvent[] = [
   {
     year: '1965',
     date: '10 – 11/1965',
-    title: 'Chiến Dịch Plâyme',
+    title: 'Chiến Dịch Plei Me',
     subtitle: 'Đòn sấm sét giữa núi rừng Tây Nguyên',
     description: 'Chiến dịch đầu tiên bộ đội chủ lực ta chủ động mở trên chiến trường Tây Nguyên, tiêu diệt sinh lực địch, đánh thiệt hại nặng Sư đoàn Không vận số 1 kỵ binh bay của Mỹ.',
     keyPoints: [

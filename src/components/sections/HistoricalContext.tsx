@@ -173,7 +173,7 @@ export const HistoricalContext: React.FC<HistoricalContextProps> = ({
                 <img
                   src={HISTORICAL_IMAGES.danang_1965.url}
                   alt={HISTORICAL_IMAGES.danang_1965.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 filter sepia-[0.25]"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-2.5 left-2.5 bg-[#9E1B1B] text-[#F8F3E8] text-[10px] font-mono font-bold px-2.5 py-1 rounded uppercase">
                   TƯ LIỆU 08/03/1965
